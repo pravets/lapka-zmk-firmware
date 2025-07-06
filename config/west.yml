@@ -1,12 +1,16 @@
 manifest:
-  defaults:
-    revision: v0.2
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: crazy-keyboards
+      url-base: https://github.com/crazy-keyboards
   projects:
     - name: zmk
       remote: zmkfirmware
+      revision: main
       import: app/west.yml
+    - name: zmk-locales
+      remote: crazy-keyboards
+      revision: develop
   self:
     path: config
