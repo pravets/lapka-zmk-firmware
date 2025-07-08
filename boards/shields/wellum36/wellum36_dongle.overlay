@@ -1,6 +1,6 @@
 #include "wellum36.dtsi"
 
-chosen {
+/ chosen {
 	zephyr,display = &oled;
 };
 
