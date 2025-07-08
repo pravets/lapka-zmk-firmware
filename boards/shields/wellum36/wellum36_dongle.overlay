@@ -1,7 +1,9 @@
 #include "wellum36.dtsi"
 
-/ chosen {
-	zephyr,display = &oled;
+/ {
+	chosen {
+		zephyr,display = &oled;
+	};
 };
 
 &kscan0 {
