@@ -1,5 +1,9 @@
 #include "wellum36.dtsi"
 
+chosen {
+	zephyr,display = &oled;
+};
+
 &kscan0 {
 	input-gpios
 		= <&pro_micro 1  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Q
