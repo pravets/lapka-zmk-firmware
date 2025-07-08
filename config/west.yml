@@ -4,8 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: crazy-keyboards
       url-base: https://github.com/crazy-keyboards
-    - name: williambonfim
-      url-base: https://github.com/williambonfim
+    - name: englmaxi
+      url-base: https://github.com/englmaxi
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -15,7 +15,7 @@ manifest:
       remote: crazy-keyboards
       revision: develop
     - name: zmk-dongle-display
-      remote: williambonfim
+      remote: englmaxi
       revision: main
   self:
     path: config
