@@ -65,6 +65,30 @@
             key-positions = <5 6>;
             layers = <0 1>;
         };
+
+        cmbCtrlZ {
+            bindings = <&kp LC(Z)>;
+            key-positions = <20 21>;
+            layers = <0 1>;
+        };
+        
+        cmbCtrlX {
+            bindings = <&kp LC(X)>;
+            key-positions = <21 22>;
+            layers = <0 1>;
+        };
+        
+        cmbCtrlC {
+            bindings = <&kp LC(C)>;
+            key-positions = <22 23>;
+            layers = <0 1>;
+        };
+
+        cmbCtrlV {
+            bindings = <&kp LC(V)>;
+            key-positions = <23 24>;
+            layers = <0 1>;
+        };
     };
 
     macros {
