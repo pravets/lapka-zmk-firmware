@@ -1,6 +1,6 @@
-# Wellum 36 for Lapka
+# Вариация раскладки Ergohaven OP36 для клавиатуры Lapka
 
-Реализация раскладки [Wellum 36](https://github.com/braindefender/wellum) для клавиатуры [Lapka](https://github.com/braindefender/lapka)
+Реализация раскладки по мотивам [Ergohaven OP36](https://github.com/ergohaven/ergohaven-zmk-config/blob/main/config/op36.keymap) для клавиатуры [Lapka](https://github.com/braindefender/lapka)
 
 В этой ветке используется Dongle, поэтому прошивка состоит из трёх частей:
 - `wellum36_left`
