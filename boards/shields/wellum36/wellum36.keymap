@@ -92,17 +92,40 @@
     };
 
     macros {
+        layout_switch_wait: layout_switch_wait {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_wait_time 50>;
+            label = "LAYOUT_SWITCH_WAIT";
+        };
+
         to_ru: to_ru {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(LC(N2))>;
+            bindings = <
+                &macro_press LC,
+                &macro_press LS,
+                &layout_switch_wait,
+                &kp N2,
+                &layout_switch_wait,
+                &macro_release LS,
+                &macro_release LC
+            >;
             label = "TO_RU";
         };
 
         to_en: to_en {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(LC(N1))>;
+            bindings = <
+                &macro_press LC,
+                &macro_press LS,
+                &layout_switch_wait,
+                &kp N1,
+                &layout_switch_wait,
+                &macro_release LS,
+                &macro_release LC
+            >;
             label = "TO_EN";
         };
 
