@@ -95,39 +95,39 @@
         layout_switch_wait: layout_switch_wait {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <
+            bindings = 
                 <&macro_wait_time 50>
-            >;
+                ;
             label = "LAYOUT_SWITCH_WAIT";
         };
 
         to_ru: to_ru {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <
-                <&macro_press &kp LCTRL>
-                ,<&macro_press &kp LSHIFT>
-                ,<&layout_switch_wait>
-                ,<&macro_tap &kp N2>
-                ,<&layout_switch_wait>
-                ,<&macro_release &kp LSHIFT>
-                ,<&macro_release &kp LCTRL>
-            >;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LSHIFT>
+                , <&layout_switch_wait>
+                , <&macro_tap &kp N2>
+                , <&layout_switch_wait>
+                , <&macro_release &kp LSHIFT>
+                , <&macro_release &kp LCTRL>
+                ;
             label = "TO_RU";
         };
 
         to_en: to_en {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <
-                <&macro_press &kp LCTRL>
-                ,<&macro_press &kp LSHIFT>
-                ,<&layout_switch_wait>
-                ,<&macro_tap &kp N1>
-                ,<&layout_switch_wait>
-                ,<&macro_release &kp LSHIFT>
-                ,<&macro_release &kp LCTRL>
-            >;
+            bindings 
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LSHIFT>
+                , <&layout_switch_wait>
+                , <&macro_tap &kp N1>
+                , <&layout_switch_wait>
+                , <&macro_release &kp LSHIFT>
+                , <&macro_release &kp LCTRL>
+                ;
             label = "TO_EN";
         };
 
