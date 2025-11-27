@@ -38,14 +38,14 @@
             hold-trigger-on-release;
         };
 
-        td_space_en: tap_dance_space {
+        td_space_en: tap_dance_space_en {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp SPACE>, <&space_dot_shift_en>;
         };
 
-        td_space_ru: tap_dance_space {
+        td_space_ru: tap_dance_space_ru {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
