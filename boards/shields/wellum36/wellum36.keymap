@@ -171,7 +171,7 @@
             label = "EN";
         };
 
-        space_dot_shift_en: space_dot_shift {
+        space_dot_shift_en: space_dot_shift_en {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -184,7 +184,7 @@
             label = "SPACE_DOT_SHIFT_EN";
         };
 
-        space_dot_shift_ru: space_dot_shift {
+        space_dot_shift_ru: space_dot_shift_ru {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
